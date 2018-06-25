@@ -1,0 +1,51 @@
+/* Infinity Scroll - Message Style
+-----------------------------------------------------------------*/
+
+#infscr-loading,
+#portfolio-ajax-loader {
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  width: 48px;
+  height: 48px;
+  margin: -24px 0 0 -24px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  line-height: 48px;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+#infscr-loading img {
+  display: none;
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+}
+
+#portfolio-ajax-loader {
+  img {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+    display: block;
+  }
+  display: none;
+}
+
+.page-load-status {
+  position: relative;
+  display: none;
+  padding: 30px 0;
+  .css3-spinner {
+    position: absolute;
+    z-index: auto;
+    background-color: transparent !important;
+  }
+  .css3-spinner-ball-pulse-sync > div {
+    background-color: #333;
+  }
+}

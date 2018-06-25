@@ -1,0 +1,63 @@
+/* ----------------------------------------------------------------
+	Quotes & Blockquotes
+-----------------------------------------------------------------*/
+
+blockquote {
+  p {
+    margin-bottom: 15px;
+  }
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17px;
+  border-left: 5px solid #eee;
+}
+
+.blockquote-reverse {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eee;
+  border-left: 0;
+  text-align: right;
+}
+
+blockquote {
+  &.float-left {
+    max-width: 300px;
+    margin: 5px 20px 10px 0;
+    padding-right: 0;
+  }
+  &.float-right {
+    max-width: 300px;
+    margin: 5px 0 10px 20px;
+    padding-left: 0;
+  }
+}
+
+.quote {
+  border: none !important;
+  position: relative;
+  p {
+    position: relative;
+  }
+  &:before {
+    font-family: 'font-icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    content: '\e7ad';
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 42px;
+    top: 0;
+    left: 0;
+    color: #eee;
+  }
+  &.blockquote-reverse:before {
+    content: '\e7ae';
+    left: auto;
+    right: 0;
+  }
+}

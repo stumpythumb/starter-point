@@ -1,0 +1,39 @@
+/* ----------------------------------------------------------------
+	Error 404
+-----------------------------------------------------------------*/
+
+.error404 {
+  display: block;
+  font-size: 216px;
+  font-weight: 700;
+  color: #ddd;
+  line-height: 1.35;
+  letter-spacing: 4px;
+}
+
+.error404-wrap {
+  .container {
+    z-index: 7;
+  }
+  .error404 {
+    line-height: 0.9;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 244px;
+    color: #fff !important;
+    opacity: 0.2;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  }
+  .heading-block {
+    h4 {
+      font-weight: 300;
+      margin-bottom: 8px;
+    }
+    span {
+      font-size: 17px;
+    }
+  }
+  form {
+    max-width: 500px;
+  }
+}

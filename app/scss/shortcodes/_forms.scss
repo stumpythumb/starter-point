@@ -1,0 +1,208 @@
+/* ----------------------------------------------------------------
+	Forms
+-----------------------------------------------------------------*/
+
+.sm-form-control {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 14px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 2px solid #ddd;
+  border-radius: 0 !important;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s;
+  &:focus {
+    border-color: #aaa;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  &::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder,
+  &::-webkit-input-placeholder {
+    color: #999;
+  }
+  &[disabled],
+  &[readonly] {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    opacity: 1;
+  }
+}
+
+fieldset[disabled] .sm-form-control {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+  opacity: 1;
+}
+
+.sm-form-control {
+  height: auto;
+}
+
+.form-control {
+  border-radius: 3px;
+  &:active,
+  &:focus {
+    border-color: #999;
+    box-shadow: none;
+  }
+}
+
+label {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #555;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &.label-muted {
+    color: #999;
+    font-weight: normal;
+    margin-right: 5px;
+  }
+}
+
+form {
+  .col_full,
+  .col_half,
+  .col_one_third,
+  .col_two_third,
+  .col_three_fourth,
+  .col_one_fourth,
+  .col_one_fifth,
+  .col_two_fifth,
+  .col_three_fifth,
+  .col_four_fifth,
+  .col_one_sixth,
+  .col_five_sixth {
+    margin-bottom: 25px;
+  }
+}
+
+/* ----------------------------------------------------------------
+      Contact Form
+  -----------------------------------------------------------------*/
+
+#contact-form-overlay {
+  position: relative;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 auto;
+  z-index: 10;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+#contact-form-overlay-mini {
+  position: relative;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 40px;
+  margin: 0 auto;
+  z-index: 10;
+  border-radius: 4px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  float: right;
+  width: 380px;
+  margin: 0;
+}
+
+label.error {
+  margin-top: 5px;
+  color: #e42c3e;
+  font-weight: 400;
+  display: none !important;
+}
+
+.show-error-msg + label.error,
+input[type='checkbox']:not(:checked) + label.error {
+  display: block !important;
+}
+
+.form-control.error,
+.sm-form-control.error {
+  border-color: #e42c3e;
+}
+
+/* ----------------------------------------------------------------
+      Google Maps
+  -----------------------------------------------------------------*/
+
+#google-map {
+  position: relative;
+  width: 100%;
+  height: 450px;
+}
+
+.gmap img {
+  max-width: none !important;
+}
+
+.gm-style .gm-style-iw h3 span {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+#map-overlay {
+  position: relative;
+  padding: 100px 0;
+  #google-map {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* ----------------------------------------------------------------
+      Google Custom Search
+  -----------------------------------------------------------------*/
+
+#content {
+  .cse .gsc-control-cse,
+  .gsc-control-cse,
+  .gsc-above-wrapper-area,
+  .gsc-adBlock,
+  .gsc-thumbnail-inside,
+  .gsc-url-top,
+  .gsc-table-result,
+  .gsc-webResult,
+  .gsc-result {
+    padding: 0 !important;
+  }
+  .gsc-selected-option-container {
+    width: auto !important;
+  }
+  .gsc-result-info {
+    padding-left: 0 !important;
+  }
+  .gsc-above-wrapper-area-container,
+  .gsc-table-result {
+    margin-bottom: 10px;
+  }
+  .gcsc-branding {
+    display: none;
+  }
+  .gsc-results,
+  .gsc-webResult {
+    width: 100% !important;
+  }
+  .gs-no-results-result .gs-snippet,
+  .gs-error-result .gs-snippet {
+    margin: 0 !important;
+  }
+}

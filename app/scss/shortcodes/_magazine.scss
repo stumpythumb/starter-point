@@ -1,0 +1,29 @@
+/* ----------------------------------------------------------------
+	Magazine Specific Classes
+-----------------------------------------------------------------*/
+
+.top-advert {
+  float: right;
+  padding: 5px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  a,
+  img {
+    display: block;
+  }
+}
+
+.bnews-title {
+  display: block;
+  float: left;
+  margin-top: 2px;
+  padding-top: 0.3em;
+  text-transform: uppercase;
+}
+
+.bnews-slider {
+  float: left;
+  width: 970px;
+  margin-left: 20px;
+  min-height: 0;
+}
