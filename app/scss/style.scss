@@ -1,0 +1,101 @@
+
+//  Bootstrap
+//  Fonts
+//  Global
+//  Third party
+//  Layout
+//  Content
+//---------------------------------------------------------------------------------*/
+//
+// =Constants
+// --------------------------------------------------
+
+//
+// =Bootstrap
+// --------------------------------------------------
+@import '_custom-bootstrap';
+
+@import '_custom-variables';
+@import '_custom-mixins';
+
+//
+// =Fontawesome
+// --------------------------------------------------
+@import '../fonts/fontawesome/web-fonts-with-css/scss/fa-regular';
+@import '../fonts/fontawesome/web-fonts-with-css/scss/fa-brands';
+@import '../fonts/fontawesome/web-fonts-with-css/scss/fa-solid';
+@import '../fonts/fontawesome/web-fonts-with-css/scss/fontawesome';
+//
+// =Third parties
+//
+// =Fonts
+// --------------------------------------------------
+// @import 'partials/fonts';
+
+//
+// =Global
+// --------------------------------------------------
+
+@import 'partials/typography';
+@import 'general/helpers';
+@import 'layout/layouts';
+
+// @import 'general/mixin';
+// @import 'general/setting';
+
+// @import 'partials/constants';
+
+// @import 'partials/forms';
+// @import 'partials/buttons';
+// @import 'partials/scrollbar-measure';
+// @import 'partials/modals';
+// @import 'partials/icons';
+// @import 'partials/grid';
+
+// //
+// // =Modules
+// // --------------------------------------------------
+// @import 'modules/IconHoverEffects';
+// @import 'modules/facebook-responsive';
+// @import 'modules/list';
+//
+// =Layout
+// --------------------------------------------------
+@import 'general/sliders';
+@import 'layout/topbar';
+@import 'layout/header';
+
+@import 'layout/pagetitle';
+@import 'layout/content';
+@import 'layout/portfolio';
+@import 'layout/blog';
+@import 'partials/inf-scroll';
+@import 'layout/shop';
+@import 'general/events';
+
+// = shortcodes
+//-----------------------------------------------------
+
+@import 'shortcodes';
+
+@import 'layout/footer';
+@import 'modules/widgets';
+
+@import 'general/extras';
+@import 'shortcodes/youtubebg';
+
+//
+// =Content blocks
+
+// --------------------------------------------------
+// @import 'pages/home';
+//widgets
+
+@import 'general/swiper';
+@import 'general/dark';
+@import 'general/font-icons';
+@import 'general/animate';
+@import 'general/magnific-popup';
+
+@import 'general/responsive';
+//extras
